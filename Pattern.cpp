@@ -21,8 +21,6 @@ int Pattern::GetOffset(char *mask, int len)
             offset += result;
         else
             offset += step;
-
-        //cout << hex << offset << endl;
     }
 
     delete[] buffer;
